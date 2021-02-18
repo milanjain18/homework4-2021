@@ -117,6 +117,7 @@ tr:hover{
 table{
     border: 2px solid #000000;
     margin: auto;
+    border-radius: 10px;
 }
 
 
@@ -132,7 +133,7 @@ thead tr:first-child th:last-child{
 tbody tr:last-child th:first-child {
   border-bottom-left-radius: 10px;
 }
-tbody tr:last-child th:last-child {
+tbody tr:last-child td:last-child {
   border-bottom-right-radius: 10px;
 }
 
@@ -148,4 +149,3 @@ footer{
   bottom:0;
 
 }
-
